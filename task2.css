@@ -1,0 +1,117 @@
+﻿*{
+	box-sizing:border-box;
+}
+
+body{
+   background-color: #888888;
+   font-family: Helvetica Neue,Hiragino,Microsoft Yahei,sans-serif;
+   margin:10px;
+   padding:0px;
+
+}
+
+p{
+	text-indent:2em;
+}
+
+header.top{
+background-color:#333;
+margin: 10px 10px 10px 10px;
+height:100px;
+}
+
+header.top img#headerlogo{
+	float: left;
+}
+
+header ul{
+	background-color:#333;
+    margin:20px 20px 0px 20px;
+    padding:5px 5px 5px 0px;
+}
+
+ul li{
+	display:inline;
+	padding:5px 10px;
+	float:right;
+}
+
+ul li a:link, ul li a:visited{
+	color:white;
+	border-bottom:none;
+}
+
+ul li.selected{
+	background-color:purple;
+}
+
+#part1{
+background-color: white;
+margin:20px 100px 20px 100px;
+padding:20px;
+}
+
+#part2{
+background-color: white;
+margin:20px 100px 20px 100px;
+padding:20px;
+}
+
+#picture{
+background-color: white;
+margin:20px 100px 20px 100px;
+padding:20px;
+}
+
+#part3{
+background-color: white;
+margin:20px 100px 20px 100px;
+padding:20px;
+}
+
+#side{
+background-color: white;
+margin:20px 100px 20px 100px;
+padding:20px;
+}
+
+#footer{
+background-color: white;
+margin:20px 100px 20px 100px;
+padding:20px;
+}
+
+table{
+	width: 90%;
+
+}
+table th{
+	background-color:#333333;
+	color: white;
+}
+.lastline{
+	background-color:#bbbbbb;
+}
+form{
+	display:table;
+	padding:10px;
+	margin-left:30%;
+	background-color:white;
+}
+
+div.tablerow{
+	display:table-row;
+}
+div.tablerow p{
+	display:table-cell;
+	vertical-align:top;
+	padding:5px;
+}
+div.tablerow p:first-child{
+	text-align:right;
+}
+#footer{
+	background-color:black;
+	color:white;
+	text-align:center;
+}
