@@ -1,0 +1,38 @@
+body{
+	padding:20px;
+	background-color:#eee;
+}
+
+.container{
+	position:relative;
+	border:1px solid #999;
+}
+
+#center{
+    margin:20px 202px 20px 222px;
+    border:1px solid #999;
+    padding:20px;
+    background-color:white;
+}
+
+#right{
+     position:absolute;
+     top:20px;
+     right:20px;
+     border:1px solid #999;
+     padding:20px;
+     background-color:white;
+}
+#left{
+	position:absolute;
+	top:20px;
+	left:20px;
+	border:1px solid #999;
+	padding:20px;
+	background-color:white;
+}
+#right img{
+	width:80px;
+	height:80px;
+	padding:20px;
+}
