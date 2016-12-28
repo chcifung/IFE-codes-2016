@@ -1,0 +1,224 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ol,ul,li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	display: block;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+img{
+	border: none;
+	display: block;
+}
+
+header{
+	width: 1280px;
+	height: 57px;
+	background-color: rgb(255,255,255); 
+	margin: 0 auto;
+}
+
+.index-banner{
+	width: 1280px;
+	height: 690px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.list1{
+	width: 1280px;
+	height: 251px;
+	position: relative;
+	margin: 0 auto;
+	background-color: white;
+}
+
+.title{
+	width: 1280px;
+	height: 361px;
+	position: relative;
+	margin: 0 auto;
+	background-color: rgb(237,237,237);
+}
+
+.search{
+	width: 1280px;
+	height: 341px;
+	position: relative;
+	margin: 0 auto;
+	background-image: url(../images/task7_map.png);/*css文件的路径要搞清楚*/
+	background-color: rgba(70,43,45,0.8);
+}
+
+.activity{
+	width: 1280px;
+	height: 604px;
+	position: relative;
+	margin: 0 auto;
+	background-color: yellow;	
+}
+
+.info{
+	width: 1280px;
+	height: 1087px;
+	position: relative;
+	margin: 0 auto;
+	background-color: green;
+}	
+
+.apply{
+	width: 1280px;
+	height: 750px;
+	position: relative;
+	margin: 0 auto;
+	background-color: white;	
+}
+
+.footer{
+	width: 1280px;
+	height: 417px;
+	position: relative;
+	margin: 0 auto;
+	background-color: red;	
+}
+.contact{
+	width: 1280px;
+	height: 358px;
+	position: relative;
+	margin: 0 auto;
+	background-color: grey;	
+}
+
+.logo{
+	float: left;
+	width: 144px;
+	height: 57px;
+	position: relative;
+	left: 38px;
+	top: 0px;
+}
+
+.nav{
+	float: right;
+}
+
+.item{
+ 	float: left;
+ 	font-size: 14px;
+ 	font-family: "Microsoft YaHei";
+ 	color: rgb(120,120,120);
+ 	margin-top: 15px;
+ 	margin-bottom: 18px;
+ 	margin-left: 26px;
+ 	margin-right: 24px;
+ }
+
+#logintext{
+	background: url(../images/login.png) left center no-repeat;
+	padding-left: 20px;
+}
+
+
+ .item1{
+ 	float: left;
+ 	margin-bottom: 0px;
+ 	border-bottom-width: 5px;
+ 	border-bottom-color: rgb(232,80,80);
+ }
+
+ .index-banner-text p{
+ 	position: absolute;
+ 	top: 284px;
+ 	left: 10%;
+ }
+
+ #big1{
+ 	color: white;
+ 	font-size: 60px;
+ 	font-family: "Microsoft YaHei";
+ }
+
+ #small1{
+ 	top: 365px;
+ 	color: white;
+ 	font-size: 21px;
+ 	font-family: "Microsoft YaHei";
+ }
+
+ #small2{
+ 	top: 397px;
+ 	color: white;
+ 	font-size: 21px;
+ 	font-family: "Microsoft YaHei";
+ }
+
+ .register{
+ 	text-decoration: none;
+ 	background-color: rgb(231,79,77);
+ 	display: inline-block;
+ 	width: 330px;
+ 	height: 64px;
+ 	position: absolute;
+ 	top: 486px;
+ 	left: 125px;
+ 	font-size: 30px;
+ 	font-family: "Microsoft YaHei";
+ 	text-align: center;
+ }
+
+ .register>a{
+ 	color: white;
+ 	padding-top: 11px;
+ }
+
+ .list2{
+ 	float: left;
+ 	font-size: 14px;
+ 	line-height: 18px;
+ 	font-family: "SimHei";
+	width: 318px;
+	text-align: center;
+	color: #777;
+	padding-top: 13px;
+	border-right: 2px solid rgb(170,170,170);
+ }
+
+ .title>img{
+	position: relative;
+	padding-top: 88px;
+	padding-left: 45%;
+ }
+
+ .title>p{
+ 	font-size: 54px;
+ 	font-family: "SimHei";
+ 	color: rgb(161,161,161);
+ 	text-align: center;
+ 	padding-top: 48px;
+ }
+
+ .search>h2{
+ 	color: white;
+ 	font-size: 21px;
+ 	font-family: "Microsoft YaHei";
+ 	text-align: center;
+ 	padding-top: 54px;
+ }
+
+ .search>p{
+ 	color: white;
+ 	font-size: 12px;
+ 	font-family: "Microsoft YaHei";
+ 	text-align: center;
+ 	padding-top: 34px;
+ }
