@@ -1,0 +1,16 @@
+.row2{
+	border: 1px solid #999;
+	padding:20px;
+	background-color: #eee;
+	color: red;
+	font-size: 14px;
+}
+
+.row{
+	border: 1px solid #999;
+	padding:20px;
+	background-color: #eee;
+	margin: 10px;
+}
+
+
