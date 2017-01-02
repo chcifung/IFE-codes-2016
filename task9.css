@@ -1,0 +1,754 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	height: 1266px;
+	width: 1280px;
+	margin: 0 auto;
+}
+
+header{
+	width: 1280px;
+	height: 56px;
+	background-color: rgb(33,137,191);
+}
+
+.main{
+	width: 1280px;
+}
+
+.sidebar{
+	float: left;
+	width: 256px;
+	height: 1211px;
+	background-color: rgb(42,46,61);
+}
+
+.container{
+	float: left;
+	width: 1024px;
+	height: 1211px;
+	background-color: rgb(238,238,238);
+}
+
+.logo{
+	position: relative;
+	top: 8px;
+	left: 50px;
+}
+
+.search>input{
+	width: 312px;
+	height: 28px;
+	border-radius: 28px;
+	position: absolute;
+	top: 14px;
+	left: 1100px;
+	border: none;
+}
+
+.login>img{
+	position: absolute;
+	top: 20px;
+	left: 1450px;
+}
+
+.login>p{
+	font-size: 12px;
+	font-family: "SimHei";
+	color: white;
+	position: absolute;
+	top: 20px;
+	left: 1470px;
+}
+
+.search>button{
+	width: 28px;
+	height: 28px;
+	position: absolute;
+	top: 14px;
+	left: 1110px;
+	border: none;
+	background-color: none;
+}
+
+.profile{
+	height: 150px;
+}
+
+.file{
+	height: 190px;
+	background-color: rgb(56,61,78);
+	font-size: 12px;
+	font-family: "SimHei";
+	color: rgb(110,128,149);
+	line-height: 30px;
+	text-align: center;
+}
+
+.others{
+	font-size: 12px;
+	font-family: "SimHei";
+	color: rgb(110,128,149);
+	line-height: 48px;
+	text-align: center;
+}
+
+.icon{
+	position: relative;
+	left: 46px;
+	top: 18px;
+	width: 56px;
+	height: 56px;
+	border-radius: 56px;
+	border: 2px solid white;
+}
+.icon1{
+	width: 46px;
+	height: 46px;
+	border-radius: 46px;
+	border: none;
+	background-color: rgb(185,185,185);
+	position: relative;
+	left: 3px;
+	top: 3px;
+}
+
+.username{
+	font-size: 16px;
+	font-family: "SimHei";
+	color: rgb(246,246,246);
+	position: relative;
+	left: 120px;
+	top: -20px;
+}
+
+.number{
+	font-size: 12px;
+	font-family: "Simsun";
+	color: rgb(110,128,149);
+	text-align: center;
+}
+
+.number2{
+	width: 126px;
+	height: 32px;
+	float: left;
+	overflow: hidden;
+	padding: 0px 31px;
+}
+
+.number1{
+	border-right: 2px solid rgb(110,128,149);
+}
+
+li{
+	list-style: none;
+}
+
+.glyphicon{
+	padding-right: 30px;
+}
+
+.title{
+	height: 30px;
+	width: 1024px;
+	position: relative;
+	left: -15px;
+	background-color: rgb(255,255,255);
+}
+
+#title{
+	font-size: 12.28px;
+	font-family: "SimHei";
+	color: rgb(183,183,183);
+	padding-top: 8px;
+	padding-left: 28px;
+}
+
+.query{
+	width: 890px;
+	height: 85px;
+	background-color: rgb(255,255,255);
+	margin: 20px auto 10px;
+	font-size: 12px;
+	font-family: "SimHei";
+	color: rgb(170,170,170);
+}
+
+.query1{
+	width: 152px;
+	height: 85px;
+	float: left;
+	text-align: center;
+	line-height: 48px;
+}
+
+#query1,.query20,.query30{
+	width: 70px;
+	height: 23px;
+	margin-left: 12px;
+	border: 1px solid rgb(183,183,183);
+}
+
+.query2{
+	width: 202px;
+	height: 85px;
+	float: left;
+	text-align: center;
+	line-height: 28px;
+}
+
+.query3{
+	width: 302px;
+	height: 85px;
+	float: left;
+	text-align: center;
+	line-height: 28px;
+}
+
+
+.query0{
+	width: 50px;
+	height: 26px;
+	float: left;
+	text-align: center;
+	line-height: 28px;
+	background-color: rgb(56,138,193);
+	color: white;
+	margin-top: 20px;
+}
+
+.history{
+	width: 890px;
+	height: 66px;
+	margin: 0 auto;
+}
+
+.his-left,.his-right{
+	width: 30px;
+	height: 66px;
+}
+
+.money{
+	width: 110px;
+	height: 66px;
+	color: rgb(51,51,51);
+	font-size: 12px;
+	font-family: "Microsoft Yahei";
+	text-align: center;
+	padding: 10px;
+}
+
+.his-num{
+	font-size: 21px;
+	color: rgb(236,101,0);
+}
+
+.his-query{
+	width: 134px;
+	height: 66px;
+	font-size: 12px;
+	font-family: "Microsoft Yahei";
+	color: rgb(83,83,83);
+	text-align: center;
+}
+
+.his-common{
+	background-color: white;
+	margin-right: 4px;
+	float: left;
+	border-left: 1px solid rgb(183,183,183);
+	border-top: 1px solid rgb(183,183,183);
+}
+
+.his-right, .his-left{
+	font-size: 28px;
+	text-align: center;
+	padding-top: 16px;
+	color: rgb(183,183,183);
+}
+
+.glyphicon-calendar{
+	padding-top: 16px;
+	font-size: 28px;
+	color: rgb(56,138,193)
+}
+
+
+.sum{
+	width: 890px;
+	height: 91px;
+	margin: 20px auto 0px;
+}
+
+.sum-title{
+	width: 890px;
+	height: 20px;
+	font-size: 12px;
+	font-family: "Microsoft Yahei";
+	color: rgb(50,50,50);
+}
+
+.deal{
+	width: 890px;
+	height: 71px;
+	margin-top: -10px;
+}
+
+.deal1, .deal2, .deal3, .deal4{
+	width: 202px;
+	height: 71px;
+	float: left;
+	background-color: white;
+	border-top: 1px solid rgb(181,181,181);
+	border-right: 1px solid rgb(181,181,181);
+	border-bottom: 1px solid rgb(181,181,181);
+}
+
+.deal1, .deal2, .deal3{
+	margin-right: 26px;
+}
+
+.deal1{
+	border-left: 4px solid rgb(67,178,158);
+}
+
+.deal2{
+	border-left: 4px solid rgb(56,138,193);
+}
+
+.deal3{
+	border-left: 4px solid rgb(208,74,54);
+}
+
+.deal4{
+	border-left: 4px solid rgb(226,205,71);
+}
+
+.deal11{
+	font-size: 12px;
+	font-family: "SimHei";
+	color: rgb(50,50,50);
+	position: relative;
+	left: 10px;
+	top: 18px;
+}
+
+.deal12{
+	font-size: 10px;
+	font-family: "SimHei";
+	color: rgb(170,170,170);
+	position: relative;
+	left: 10px;
+	top: 13px;
+}
+
+.deal-block{
+	width: 60px;
+	height: 48px;
+}
+
+.deal-block1{
+	background-color: rgb(67,178,158);
+	position: relative;
+	top: 12px;
+	right: 15px;
+	float: right;
+}
+
+.deal-block2{
+	background-color: rgb(56,138,193);
+	position: relative;
+	top: 12px;
+	right: 15px;
+	float: right;
+}
+
+.deal-block3{
+	background-color: rgb(208,74,54);
+	position: relative;
+	top: 12px;
+	right: 15px;
+	float: right;
+}
+
+.deal-block4{
+	background-color: rgb(226,205,71);
+	position: relative;
+	top: 12px;
+	right: 15px;
+	float: right;
+}
+
+.project{
+	width: 533px;
+	height: 358px;
+	border-radius: 5px;
+	border: 1px solid rgb(171,171,171);
+	margin-top: 14px;
+	background-color: white;
+	float: left;
+}
+
+.project-title{
+	height: 40px;
+	width: 531px;
+	border-bottom: 1px solid rgb(171,171,171);
+	background-color: rgb(244,245,246);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	font-size: 12px;
+	font-family: "SimHei";
+	color: rgb(170,170,170);
+}
+
+.project-title>p{
+	position: relative;
+	top: 15px;
+	left: 22px;
+}
+
+.project-table{
+	width: 490px;
+	height: 280px;
+	border-radius: 5px;
+	border: 1px solid rgb(171,171,171);
+	border-top: none;
+	position: relative;
+	top: 12px;
+	left: 20px;
+}
+
+.table-title{
+	width: 490px;
+	height: 28px;
+	border-bottom: 1px solid rgb(171,171,171);
+	z-index: 1;
+}
+
+.table-title1{
+	width: 85px;
+	height: 28px;
+	margin-right: 3px;
+	background-color: rgb(237,237,240);
+	color: rgb(83,83,83);
+	font-size: 12px;
+	font-family: "Microsoft Yahei";
+	text-align: center;
+	float: left;
+	line-height: 24px;
+}
+
+.project-table>table{
+	width: 402px;
+	height: 184px;
+	font-size: 12px;
+	font-family: "Simsun";
+	text-align: center;
+	color: rgb(83,83,83);
+	position: relative;
+	left: 36px;
+	top: 28px;
+	border: 1px solid rgb(171,171,171);
+}
+
+.description{
+	width: 347px;
+	height: 358px;
+	border-radius: 5px;
+	border: 1px solid rgb(171,171,171);
+	margin-top: 14px;
+	margin-left: 8px;
+	background-color: white;
+	float: left;
+}
+
+.description-title{
+	height: 40px;
+	width: 345px;
+	border-bottom: 1px solid rgb(171,171,171);
+	background-color: rgb(244,245,246);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	font-size: 12px;
+	font-family: "SimHei";
+	color: rgb(170,170,170);
+}
+
+.description-title>p{
+	position: relative;
+	top: 15px;
+	left: 22px;
+}
+
+.des-title1{
+	width: 345px;
+	height: 56px;
+	padding-left: 52px;
+}
+
+.description h2{
+	font-size: 12px;
+	font-family: "Microsoft Yahei";
+	color: rgb(194,194,194);
+}
+
+.description p{
+	font-size: 12px;
+	font-family: "Microsoft Yahei";
+	color: rgb(83,83,83);
+}
+
+.des-price{
+	width: 94px;
+	height: 44px;
+	border: 1px solid rgb(171,171,171);
+	float: left;
+	border-left: none;
+	margin-left: 32px;
+}
+
+.des-price>p,.des-price>h2{
+	position: relative;
+	top: -20px;
+	left: 22px;
+	line-height: 1;
+}
+
+.des-charge{
+	width: 216px;
+	height: 44px;
+	border: 1px solid rgb(171,171,171);
+	float: left;
+	border-left: none;
+	border-right: none;
+}
+
+.des-charge>p,.des-charge>h2{
+	position: relative;
+	top: -20px;
+	left: 22px;
+	line-height: 1;
+}
+
+.des-detail{
+	width: 282px;
+	height: 146px;
+	border: 1px solid rgb(171,171,171);
+	float: left;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	margin: 0 35px;
+}
+
+.des-detail>p,.des-detail>h2{
+	position: relative;
+	top: 6px;
+	left: 22px;
+	line-height: 1;
+}
+
+.des-confirm>h2{
+	position: relative;
+	top: 6px;
+	left: 42px;
+	line-height: 1;
+}
+
+.des-search{
+	float: right;
+	position: relative;
+	top: -20px;
+	right: 30px;
+}
+
+.des-search>button{
+	width: 50px;
+	height: 26px;
+	float: right;
+	background-color: rgb(56,138,193);
+	color: white;
+	font-size: 12px;
+	font-family: "SimHei";
+	text-align: center;
+	border-radius: 5px;
+	border: none;
+}
+
+
+.calendar{
+	width: 352px;
+	height: 358px;
+	border-radius: 5px;
+	border: 1px solid rgb(171,171,171);
+	margin-top: 14px;
+	background-color: white;
+	float: left;
+}
+
+.cal-title{
+	height: 40px;
+	width: 350px;
+	border-bottom: 1px solid rgb(171,171,171);
+	background-color: rgb(244,245,246);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	font-size: 12px;
+	font-family: "SimHei";
+	color: rgb(170,170,170);
+}
+
+.cal-title>p{
+	position: relative;
+	top: 15px;
+	left: 22px;
+}
+
+.cal-header{
+	width: 312px;
+	height: 42px;
+	border-bottom: 2px solid rgb(169,207,236);
+	margin: 0 auto;
+}
+
+.cal-date{
+	float: left;
+	text-align: center;
+	margin-right: 6px;
+}
+
+#cal-year{
+	width: 70px;
+	margin-top: 12px;
+	border: 1px solid rgb(183,183,183);
+	color: rgb(117,117,117);
+	height: 23px;
+}
+
+#cal-month{
+	width: 54px;
+	margin-top: 12px;
+	border: 1px solid rgb(183,183,183);
+	color: rgb(117,117,117);
+	height: 23px;
+}
+
+#cal-day{
+	width: 84px;
+	margin-top: 12px;
+	border: 1px solid rgb(183,183,183);
+	color: rgb(117,117,117);
+	height: 23px;
+}
+
+#cal-today{
+	display: block;
+	width: 74px;
+	margin-top: 12px;
+	border: 1px solid rgb(183,183,183);
+	color: rgb(117,117,117);
+	height: 23px;
+}
+
+.carlist{
+	width: 532px;
+	height: 358px;
+	border-radius: 5px;
+	border: 1px solid rgb(171,171,171);
+	margin-top: 14px;
+	background-color: white;
+	float: left;
+	margin-left: 5px;
+}
+
+.car-title{
+	height: 40px;
+	width: 530px;
+	border-bottom: 1px solid rgb(171,171,171);
+	background-color: rgb(244,245,246);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	font-size: 12px;
+	font-family: "SimHei";
+	color: rgb(170,170,170);	
+}
+
+.car-title>p{
+	position: relative;
+	top: 15px;
+	left: 22px;
+}
+
+.carlist>table{
+	width: 452px;
+	height: 282px;
+	font-size: 13px;
+	font-family: "SimHei";
+	text-align: center;
+	color: rgb(83,83,83);
+	position: relative;
+	left: 36px;
+	top: 18px;
+	border: 1px solid rgb(171,171,171);
+}
+
+
+.carlist11{
+	display: inline-block;
+	width: 168px;
+	height: 4px;
+}
+
+.carlist1{
+	background-color: rgb(236,110,81);
+	border-right: 28px solid rgb(221,221,221);
+}
+
+.carlist2{
+	background-color: rgb(239,128,79);
+	border-right: 46px solid rgb(221,221,221);
+}
+
+.carlist3{
+	background-color: rgb(241,158,79);
+	border-right: 63px solid rgb(221,221,221);
+}
+
+.carlist4{
+	background-color: rgb(127,203,240);
+	border-right: 70px solid rgb(221,221,221);
+}
+
+.carlist5{
+	background-color: rgb(127,203,240);
+	border-right: 82px solid rgb(221,221,221);
+}
+
+.carlist6{
+	background-color: rgb(127,203,240);
+	border-right: 88px solid rgb(221,221,221);
+}
+
+.carlist7{
+	background-color: rgb(127,203,240);
+	border-right: 94px solid rgb(221,221,221);
+}
+
+.carlist8{
+	background-color: rgb(127,203,240);
+	border-right: 104px solid rgb(221,221,221);
+}
+
+.carlist9{
+	background-color: rgb(127,203,240);
+	border-right: 108px solid rgb(221,221,221);
+}
+
+.carlist10{
+	background-color: rgb(127,203,240);
+	border-right: 112px solid rgb(221,221,221);
+}
