@@ -654,6 +654,26 @@ li{
 	height: 23px;
 }
 
+.days6{
+	color: rgb(201,22,29);
+}
+
+ .yellow-b td{
+ 	border: 1px solid yellow;
+ }
+
+.weekday>table{
+	width: 310px;
+	height: 260px;
+	margin: 0 auto;
+	font-size: 12px;
+	font-family: "SimHei";
+	color: rgb(50,51,51);
+	text-align: center;
+}
+
+
+
 .carlist{
 	width: 532px;
 	height: 358px;
