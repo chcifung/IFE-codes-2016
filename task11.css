@@ -1,13 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
 body {
     font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
-    width: 100vmin;
+    width: 1000px;
     height: 300vmax;
+    font-size: 13px;
+    background-color: rgb(245,245,245);
 }
 
 a, img {
     -webkit-touch-callout: none; /* 禁止长按链接与图片弹出菜单 */
+    text-decoration: none;
 }
+
 html, body {
     -webkit-user-select: none;   /* 禁止选中文本 */
     user-select: none;
+}
+
+ul,li{
+	list-style: none;
+	float: left;
+}
+
+li{
+	display: inline-block;
+	font-size: 2.2rem;
+	color: rgb(112,112,112);
+	font-family: "SimHei";
+	background-color: white;
+}
+
+.title{
+	background-color: rgb(145,212,218);
+	font-family: "SimHei";
+	height: 113px;
+}
+
+.title>h1,a{
+	color: white;
+	font-size: 2rem;
+	position: relative;
+	float: left;
+}
+
+.title h1{
+	margin-left: 320px;
+	margin-top: 36px;
+}
+
+.nav li{
+	padding: 58px 62px;
+}
+
+.active{
+	border-bottom: 8px solid rgb(145,212,218);
+}
+
+.labels li{
+	padding: 45px 40px;
+	text-align: center;
+}
+
+.labels{
+	height: 296px;
+	width: 1000px;
+	border-bottom: 4px solid rgb(229,229,229);
+}
+
+.columns{
+	margin-top: 40px;
+	margin-left: 30px;
+	margin-bottom: 33px;
+}
+
+.columns li{
+	padding: 40px 20px;
+}
+
+.columns h2{
+	color: rgb(45,45,45);
+	text-align: center;
+}
+
+.columns h3{
+	text-align: center;
+	font-size: 1.6rem;
+	line-height: 3rem;
+}
+
+
+.active1{
+	width: 313px;
+	height: 316px;
+	border-left: 4px solid rgb(229,229,229);
+	border-right: 4px solid rgb(229,229,229);
+}
+
+.module header{
+	width: 932px;
+	height: 118px;
+	padding: 30 34px;
+	background-color: white;
 }
