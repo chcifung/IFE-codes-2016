@@ -101,8 +101,47 @@ li{
 }
 
 .module header{
+	display: inline-block;
 	width: 932px;
 	height: 118px;
-	padding: 30 34px;
 	background-color: white;
+	font-size: 3rem;
+	font-family: "SimHei";
+	padding: 30px 15px 0 15px;
+	margin-left: 30px;
+	margin-top: 30px;
+	border-bottom: 4px solid rgb(229,229,229);
+}
+
+.module li{
+	background-color: rgb(248,248,248);
+	text-align: center;
+	padding: 32px 80px;
+	margin: 0 12px 12px 45px;
+}
+
+.module section{
+
+	margin: 30px 0 30px 30px;
+}
+
+.module img{
+	display: block;
+	float: left;
+}
+
+.articals{
+	width: 935px;
+	height: 202px;
+}
+
+.articals header{
+	font-size: 2.2rem;
+	font-family: "SimHei";
+	color: rgb(103,103,103);
+}
+
+.articals img{
+	float: left;
+	padding: 30px;
 }
