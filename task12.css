@@ -1,4 +1,21 @@
 *{
-	margin: 30;
-	padding: 30;
+	margin: 30px;
+}
+
+
+table{
+	font-family: "SimHei";
+}
+
+th{
+	background-color: black;
+	color: white;
+}
+
+tr:nth-child(2n+1){
+	background-color: #ccc;
+}
+
+tr:nth-child(2),tr:nth-child(3),tr:nth-child(4){
+	color: red;
 }
