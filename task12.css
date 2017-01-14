@@ -19,3 +19,14 @@ tr:nth-child(2n+1){
 tr:nth-child(2),tr:nth-child(3),tr:nth-child(4){
 	color: red;
 }
+
+input{
+	outline: none;
+	transition: width 1s ease;
+	width: 200px;
+}
+
+.c5:focus{
+	box-shadow: 0 0 8px rgba(103, 166, 217, 1);
+	width: 300px;
+}
