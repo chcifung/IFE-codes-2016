@@ -1,5 +1,6 @@
 table{
 	font-family: "SimHei";
+	margin: 30px;
 }
 
 th{
@@ -16,6 +17,7 @@ tr:nth-child(2),tr:nth-child(3),tr:nth-child(4){
 }
 
 input{
+	margin: 30px;
 	outline: none;
 	transition: width 1s ease;
 	width: 200px;
@@ -37,6 +39,7 @@ input{
 	width: 360px;
 	height: 240px;
 	overflow: hidden;
+	margin: 30px;
 }
 
 .slide-container>.banner-slide{
@@ -90,10 +93,10 @@ input{
 	background-color: rgba(255,255,255,0.6);
 }
 
-#btn-1, #btn-2, #btn3{
+#btn-1, #btn-2, #btn-3{
 	position: absolute;
 	opacity: 0;
-	filter: alpha(0);
+	filter: alpha(opacity=0);
 }
 
 #btn-1:checked~ .slide-container>.banner-slide{
