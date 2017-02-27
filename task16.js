@@ -13,15 +13,16 @@ var aqiData = {};
  * 然后渲染aqi-list列表，增加新增的数据
  */
 function addAqiData() {
-	var citys = document.getELementById("aqi-city-input").value;
-	var values = document.getELementById("aqi-value-input").value;
+	citys = document.getElementById("aqi-city-input").value;
+	values = document.getElementById("aqi-value-input").value;
 }
 
 /**
  * 渲染aqi-table表格
  */
 function renderAqiList() {
-
+	citys = citys.trim();
+	values = values.trim();
 }
 
 /**
@@ -31,7 +32,34 @@ function renderAqiList() {
 function addBtnHandle() {
   addAqiData();
   renderAqiList();
+  document.getElementById("add-btn").onclick = function(){
+  	var trObject1 = document.createElement('tr');
+                var td1 = document.createElement('td');
+                td1.innerHTML = "城市";
+                var td2 = document.createElement('td');
+                td2.innerHTML = "空气质量";
+                var td3 = document.createElement('td');
+                td3.innerHTML = "操作";
+                trObject1.appendChild(td1);
+                trObject1.appendChild(td2);
+                trObject1.appendChild(td3);
+    var trObject2 = document.createElement('tr');
+                var td4 = document.createElement('td');
+                td4.innerHTML = citys;
+                var td5 = document.createElement('td');
+                td5.innerHTML = values;
+                var td6 = document.createElement('button');
+                td6.innerHTML = "删除";
+                trObject2.appendChild(td4);
+                trObject2.appendChild(td5);
+                trObject2.appendChild(td6);
+    document.getElementById("aqi-table").appendChild(trObject1);
+    document.getElementById("aqi-table").appendChild(trObject2);
+
+  }
 }
+
+addBtnHandle();
 
 /**
  * 点击各个删除按钮的时候的处理逻辑
